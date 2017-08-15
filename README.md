@@ -16,8 +16,10 @@ I find more often than not localhost:8000 is being used by something else.
 
 You would want to change whatever host and port you go with in the files: chain.service.js, store.service.js, and employee.service.js.
 
-So to get running you would need 2 terminal windows open
-for the angular side: /drf_sample/client$ node server.js
-for the django side: /drf_sample/server$ ./manage.py runserver 0.0.0.0:9802
+So to get running you would need 2 terminal windows open.
+
+For the angular side: /drf_sample/client$ node server.js
+
+For the django side: /drf_sample/server$ ./manage.py runserver 0.0.0.0:9802
 
 But you will learn that in the tutorial. :)
