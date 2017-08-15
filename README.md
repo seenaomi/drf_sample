@@ -10,10 +10,14 @@ The solution was found here: https://github.com/ottoyiu/django-cors-headers
 
 But you can install it whenever via pip.
 
-on the django side I wouldn't use localhost:8000 I would designate your own. 
+On the django side I wouldn't use localhost:8000 I would designate your own. 
 IE: ./manage.py runserver 0.0.0.0:9802 (your local IP + port of choice) 
 I find more often than not localhost:8000 is being used by something else.
 
 You would want to change whatever host and port you go with in the files: chain.service.js, store.service.js, and employee.service.js.
 
+So to get running you would need 2 terminal windows open
+for the angular side: /drf_sample/client$ node server.js
+for the django side: /drf_sample/server$ ./manage.py runserver 0.0.0.0:9802
 
+But you will learn that in the tutorial. :)
